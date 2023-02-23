@@ -22,25 +22,7 @@ function Final(props) {
     <Typography variant="h3" color='green' component="h2">
  Data added successfully
 </Typography>
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Values</th>
-    </tr>
-  </thead>
-  <tbody>
-    {
-      result.map((ele,ind)=>{
-        return(
-          <tr key={ind}>
-            <td>{ele}</td>
-          </tr>
-        )
-      })
-    }
-  </tbody>
-</table>
+
     </>
   )
 }
